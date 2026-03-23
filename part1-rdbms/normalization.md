@@ -1,6 +1,6 @@
 ## Anomaly Analysis
 
-\##Insert Anomaly
+\## Insert Anomaly
 The system cannot store a new product unless it appears in an order.
 In the dataset, product information only exists inside order rows.
 For example:
