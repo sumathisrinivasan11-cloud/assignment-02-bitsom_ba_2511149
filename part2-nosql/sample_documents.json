@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "E1001",
+    "category": "Electronics",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "brand": "SoundMax",
+    "price": 129.99,
+    "specifications": {
+      "warranty_years": 2,
+      "battery_life_hours": 30,
+      "bluetooth_version": "5.2",
+      "voltage": "5V USB-C"
+    },
+    "features": [
+      "Active Noise Cancellation",
+      "Fast Charging",
+      "Foldable Design"
+    ],
+    "stock": {
+      "warehouse": "Dubai Central",
+      "quantity": 120
+    }
+  },
+
+  {
+    "_id": "C2001",
+    "category": "Clothing",
+    "name": "Men's Cotton T-Shirt",
+    "brand": "UrbanWear",
+    "price": 19.50,
+    "sizes_available": ["S", "M", "L", "XL"],
+    "material": {
+      "fabric": "100% Cotton",
+      "wash_instructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Tumble dry low"
+      ]
+    },
+    "colors": [
+      { "name": "Black", "hex": "#000000" },
+      { "name": "Navy Blue", "hex": "#000080" }
+    ],
+    "stock": {
+      "warehouse": "Sharjah Apparel Hub",
+      "quantity": 350
+    }
+  },
+
+  {
+    "_id": "G3001",
+    "category": "Groceries",
+    "name": "Organic Whole Milk",
+    "brand": "FreshFarm",
+    "price": 4.25,
+    "expiry_date": "2026-04-15",
+    "nutritional_info": {
+      "serving_size_ml": 250,
+      "calories": 150,
+      "fat_g": 8,
+      "protein_g": 8,
+      "carbohydrates_g": 12
+    },
+    "storage": {
+      "temperature": "2–4°C",
+      "instructions": "Keep refrigerated. Consume within 3 days after opening."
+    },
+    "certifications": ["Organic Certified", "Non-GMO"],
+    "stock": {
+      "warehouse": "Abu Dhabi Cold Storage",
+      "quantity": 500
+    }
+  }
+]
