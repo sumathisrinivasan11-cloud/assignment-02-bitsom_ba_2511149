@@ -44,9 +44,7 @@ Similarly, product P008 – Webcam appears only in order ORD1185. If that order 
 
 Normalization also resolves insert anomalies. In the flat file, a new product cannot be added unless it appears in an order. With a separate Products table, new items can be added freely without depending on customer activity.
 
-Therefore, normalization is not over‑engineering—it is essential for maintaining data integrity, reducing redundancy, and ensuring scalability. 
+Therefore, normalization is not over‑engineering—it is essential for maintaining data integrity, reducing redundancy, and ensuring scalability.
 
 The 3NF schema eliminates all anomalies, improves consistency, and creates a cleaner, more reliable database structure that supports long‑term growth and accurate reporting. It also optimizes storage by storing repetitive data as compact IDs rather than long strings there by saving space.
-
-
 
